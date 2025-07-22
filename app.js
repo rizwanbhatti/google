@@ -58,7 +58,7 @@ async function google() {
   const { data, error } = await client.auth.signInWithOAuth({
   provider: 'google',
   options: {
-    redirectTo: 'dashboard.html'
+    redirectTo: 'https://github.com/rizwanbhatti/google/dashboard.html'
   }
 })
 
